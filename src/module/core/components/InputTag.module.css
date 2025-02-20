@@ -1,0 +1,102 @@
+.container {
+  width: 600px;
+}
+
+.label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 0.25rem;
+}
+
+.tagItem {
+  display: inline-flex;
+  align-items: center;
+  background-color: #ebf8ff;
+  color: #2b6cb0;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+}
+
+.removeButton {
+  margin-left: 0.25rem;
+  color: #2b6cb0;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  color: #3182ce;
+}
+
+.inputContainer {
+  border: 1px solid #d2d6dc;
+  border-radius: 0.5rem;
+  cursor: text;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.inputContainer.minHeight {
+  min-height: 8rem;
+}
+
+.inputContainer.height {
+  height: 3rem;
+}
+
+.containerInner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  padding-right: 4rem;
+}
+
+.containerInner.overflowAuto {
+  overflow-y: auto;
+  max-height: 15rem;
+}
+
+.containerInner.overflowHidden {
+  overflow: hidden;
+  height: 100%;
+}
+
+.input {
+  outline: none;
+  border: none;
+  flex-grow: 1;
+  min-width: 5rem;
+}
+
+.input.textarea {
+  height: auto;
+}
+
+.input.input {
+  height: 2rem;
+}
+
+.expandButton {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7fafc;
+  color: #4a5568;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.expandButton:hover {
+  background-color: #edf2f7;
+}

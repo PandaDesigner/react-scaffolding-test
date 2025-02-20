@@ -18,7 +18,7 @@ export const useCharacter = () => {
                 console.error("Error fetching characters", error)
             }
         }
-        loadCharacters()
+        loadCharacters();
     }, [])
 
     return {

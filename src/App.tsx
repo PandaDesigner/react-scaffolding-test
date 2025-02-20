@@ -1,6 +1,7 @@
 import { useCharacter } from './module/characters/hooks/useCharacter'
 import './App.css'
-import TagInput from './module/components/Taginput';
+import InputTag from './module/core/components/InputTag';
+
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <TagInput />
+        <InputTag />
         {JSON.stringify(characters)}
       </div>
       <p className="read-the-docs">
